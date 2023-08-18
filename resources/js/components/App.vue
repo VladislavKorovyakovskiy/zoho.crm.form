@@ -8,16 +8,16 @@
 
 <script>
 import Deals from './CreateDeals.vue';
-import Invoices from './CreateInvoices.vue'; // Импортируйте ваш дочерний компонент
+import Invoices from './CreateInvoices.vue'; 
 
 export default {
     components: {
-        Deals, // Зарегистрируйте дочерний компонент
+        Deals, 
         Invoices,
     },
     data() {
         return {
-            CreateDeals: 'Deals', // Имя дочернего компонента
+            CreateDeals: 'Deals', 
             CreateInvoices: 'Invoices',
             component: 'Deals',
         };
