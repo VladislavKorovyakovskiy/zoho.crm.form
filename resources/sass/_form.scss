@@ -1,0 +1,133 @@
+body {
+    background-color: whitesmoke;
+}
+
+.btn-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.btn-box button {
+    cursor: pointer;
+    background-color: gray;
+    border: none;
+    transition: background-color 0.5s ease;
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn-box button:hover {
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    padding: 2rem;
+    display: block;
+    margin: 0 auto;
+    width: max-content;
+    background-color: #0000002d;
+    border-radius: 1rem;
+}
+
+.error {
+    width: 300px;
+    background-color: rgba(255, 0, 0, 0.377);
+    border-radius: 0.5rem;
+}
+
+.error li {
+    padding: 10px 10px 10px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.popup-form {
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 600px;
+    height: 300px;
+}
+
+.form-group {
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 300px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 0.5rem;
+}
+
+#Deal_Name,
+#Account_Name,
+#openDate {
+    border-left: 3px solid red;
+}
+
+.form-group textarea {
+    height: 70px;
+}
+
+.field {
+    transition: (box-shadow 0.3s ease), (border 0.3s ease);
+    border: 1px solid black;
+    outline: none;
+}
+
+.field:focus {
+    box-shadow: 0 0 10px #719ECE;
+    border: 1px solid #719ECE;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: rgb(42, 196, 42);
+    width: 120px;
+    height: 40px;
+    border: 1px solid green;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    transition: background-color 0.2s ease;
+    border-radius: 0.5rem;
+}
+
+.btn:hover {
+    background-color: #00d9ff;
+}
+
+.popup-form input {
+    height: 40px;
+    width: 400px;
+    font-size: 1.2rem;
+}
+
+.popup-form label {
+    float: right;
+}
+
+.popup-form h2 {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto 2rem auto;
+    font-size: 1.2rem;
+}
+
+#addNew {
+    cursor: pointer;
+}
